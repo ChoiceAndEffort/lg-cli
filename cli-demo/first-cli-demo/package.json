@@ -1,0 +1,14 @@
+{
+  "name": "first-cli-demo",
+  "version": "1.0.0",
+  "description": "第一个脚手架",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "first-cli": "bin/first-cli.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
