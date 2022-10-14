@@ -1,3 +1,5 @@
+#脚手架指令demo
+
 - npm init 初始一个项目
 - 在项目中新建 bin 文件夹
 - 在项目 bin 文件夹下新建一个 first-cli.js
