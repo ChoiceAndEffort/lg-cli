@@ -1,7 +1,7 @@
 // lib/Generator.js
 const path = require('path');
 const { getRepoList, getTagList } = require('./http');
-const ora = require('ora');
+const ora = require('ora');//控制台 loading 样式
 const inquirer = require('inquirer');
 
 const util = require('util');
