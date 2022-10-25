@@ -4,7 +4,6 @@ import Home from '../views/home.vue';
 import Index from '../views/index.vue';
 import { AppMain } from 'gggj_lib';
 import pkg from '../../package.json';
-// console.log(pkg.name);
 Vue.use(Router);
 
 const routes = [
