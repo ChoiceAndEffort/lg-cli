@@ -1,0 +1,120 @@
+//修改公共提示的样式-放在首位,放在末尾会覆盖样式
+.el-message {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+}
+
+.el-message {
+    color: #242833;
+}
+
+.el-icon-info:before {
+    color: #1678FF;
+}
+
+
+//修改公共的警告样式
+.el-message--warning {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+}
+
+.el-message--warning .el-message__content {
+    color: #242833;
+}
+
+.el-icon-warning:before {
+    color: #FF7D00;
+}
+
+//修改公共错误的样式
+.el-message--error {
+    background-color: #FFECE8;
+    border-color: #FFECE8;
+}
+
+.el-message--error .el-message__content {
+    color: #242833;
+}
+
+.el-icon-error:before {
+    color: #F53F3F;
+}
+
+
+//修改公共成功的样式
+.el-message--success {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+}
+
+.el-message--success .el-message__content {
+    color: #242833;
+}
+
+.el-icon-success:before {
+    color: #00B42A;
+}
+
+
+.popup-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .el-form-item__content{
+       width: 300px !important;
+       .el-input,.el-select{
+           width: 100% !important;
+       }
+    }
+}
+
+.sub-page-transparent{
+    display: flex;
+    flex-direction: column;
+    background: transparent !important;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.padding-con{
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+.color-bg--white{
+    background: #fff;
+}
+
+.form-card{
+    padding: 16px;
+    box-sizing: border-box;
+    background: #fff;
+}
+
+.form-margin--top{
+    margin-top: 10px;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.h-50{
+    height: 50px !important;
+}
+.l-h-50{
+    line-height: 50px !important;
+}
+.h-46{
+    height: 46px !important;
+}
+.m-l-20{
+    margin-left: 20px;
+}
