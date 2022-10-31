@@ -2,7 +2,7 @@
   "name": "copy-temp-cli",
   "version": "1.0.0",
   "description": "",
-  "main": "./bin/cli.js",
+  "main": "./cli.js",
   "bin": {
     "copy-temp": "./cli.js"
   },
