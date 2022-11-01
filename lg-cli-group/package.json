@@ -1,0 +1,19 @@
+{
+  "name": "lg-cli-group",
+  "version": "1.0.0",
+  "description": "多脚手架组合",
+  "main": "index.js",
+  "bin": {
+    "group-cli": "./bin/group-cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "leigong",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^9.4.1",
+    "fs-extra": "^10.1.0",
+    "inquirer": "^8.0.0"
+  }
+}
