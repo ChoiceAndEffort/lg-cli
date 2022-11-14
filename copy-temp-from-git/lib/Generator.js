@@ -23,6 +23,7 @@ async function wrapLoading(fn, message, ...args) {
     spinner.succeed();
     return result;
   } catch (error) {
+    console.log('下载失败的原因',error);
     // 状态为修改为失败
     spinner.fail('Request failed, refetch ...');
   }
@@ -44,7 +45,9 @@ class Generator {
   // 2）调用下载方法
   async download(repo, tag) {
     // 1）拼接下载地址
-    const requestUrl ='leigong421/muban202101';
+    // const requestUrl ='leigong421/muban202101';
+    const requestUrl =
+      'direct:https://github.com/leigong421/hb-webpack5.git';
 
     // 2）调用下载方法
     await wrapLoading(

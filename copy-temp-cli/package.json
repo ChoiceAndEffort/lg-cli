@@ -2,16 +2,23 @@
   "name": "copy-temp-cli",
   "version": "1.0.0",
   "description": "",
-  "main": "./cli.js",
+  "main": "lib/cli.js",
   "bin": {
-    "copy-temp": "./cli.js"
+    "copy-temp": "bin/index.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
   },
-  "author": "",
+  "author": "lg",
   "license": "ISC",
+  "files": [
+    "lib",
+    "templates",
+    "packages"
+  ],
   "devDependencies": {
+    "rollup": "^2.79.0",
     "chalk": "^4.1.2",
     "commander": "^9.4.1",
     "ejs": "^3.1.8",
