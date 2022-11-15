@@ -96,7 +96,7 @@ program
         // 打印互用输入结果
         console.log('idName--------', answers);
         // 模版文件目录
-        const sourceDir = path.join(__dirname, './templates');
+        const sourceDir = path.join(__dirname, '../templates');
 
         // 当前命令行选择的目录
         const cwd = process.cwd();
